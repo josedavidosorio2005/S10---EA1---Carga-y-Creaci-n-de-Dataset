@@ -1,10 +1,18 @@
-# S10 – EA1: Carga y creación de dataset
+# Iris: carga, transformación y análisis con pandas
 
 **Estudiante:** José David Osorio Gallego  
 **Curso:** Actividad S10, Evidencia de Aprendizaje 1  
 **Año:** 2026
 
-## ¿Qué hice?
+## Resultado principal
+
+![Registros después del filtro: 50 Iris-virginica, 50 Iris-versicolor y 13 Iris-setosa](docs/iris-despues-del-filtro.svg)
+
+El filtro de longitud del pétalo conservó **113 de 150 registros**. Pasaron las 50 muestras de *Iris virginica* y las 50 de *Iris versicolor*, mientras que de *Iris setosa* quedaron 13. El filtro cambió la proporción de especies. Para comparar grupos, conviene tener en cuenta esa pérdida.
+
+[Ver el notebook ejecutado](S10_EA1_iris.ipynb) · [Consultar el resumen de salida](resumen_iris_transformado.txt) · [Ejecutarlo localmente](#cómo-ejecutarlo)
+
+## Mi trabajo en el proyecto
 
 En esta actividad quise practicar un flujo sencillo pero que pueda volver a usar: obtener un dataset desde Hugging Face, trabajarlo con pandas y generar un archivo de texto para conocer sus características.
 
